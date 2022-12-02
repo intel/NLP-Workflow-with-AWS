@@ -22,7 +22,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y insta
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
          wget=1.20.3-1ubuntu2 \
          nginx=1.18.0-0ubuntu1.4 \
-         cmake=3.16.3-1ubuntu1 \
+         cmake=3.16.3-1ubuntu1.20.04.1 \
          software-properties-common=0.99.9.8 \
          pkg-config=0.29.1-0ubuntu4 \
          python3.8-dev=3.8.10-0ubuntu1~20.04.5 \
