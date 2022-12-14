@@ -18,16 +18,16 @@
 FROM ubuntu:20.04
 
 #Install necessary packages
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata=2022f-0ubuntu0.20.04.1 --no-install-recommends && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata=2022g-0ubuntu0.20.04.1 --no-install-recommends && rm -rf /var/lib/apt/lists/*
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
          wget=1.20.3-1ubuntu2 \
          nginx=1.18.0-0ubuntu1.4 \
          cmake=3.16.3-1ubuntu1.20.04.1 \
          software-properties-common=0.99.9.8 \
          pkg-config=0.29.1-0ubuntu4 \
-         python3.8-dev=3.8.10-0ubuntu1~20.04.5 \
+         python3.8-dev=3.8.10-0ubuntu1~20.04.6 \
          build-essential=12.8ubuntu1.1 \
-         ca-certificates=20211016~20.04.1 \
+         ca-certificates=20211016ubuntu0.20.04.1 \
          gnupg=2.2.19-3ubuntu2.2 \
          python3-pip=20.0.2-5ubuntu1.6 \
          libgl1=1.3.2-1~ubuntu0.20.04.2 \
