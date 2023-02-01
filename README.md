@@ -92,8 +92,8 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
 ### Installation
 1. Clone the repository
 ```
-git clone https://github.com/intel-sandbox/applications.ai.appliedml.workflow.cloudtrainingcloudinference.git
-cd applications.ai.appliedml.workflow.cloudtrainingcloudinference
+git clone https://github.com/intel/NLP-Workflow-with-AWS.git
+cd NLP-Workflow-with-AWS
 ```
 2. Build the docker image to prepare the environment for running the Juypter notebooks.
 ```
